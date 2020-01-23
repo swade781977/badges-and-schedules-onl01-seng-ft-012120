@@ -9,9 +9,21 @@ def assign_rooms(array)
   count = 1
   rooms = []
   array.each do |name|
-    rooms << "Hello, #{name}! \n You'll be assigned to room #{count}"
+    rooms << "Hello, #{name}! You'll be assigned to room #{count}"
     count +=1
   end
   return rooms
 end
-    
+def printer(array)
+  badge_maker(array)
+  badges.each do |name_tag|
+    puts name_tag
+  end
+  assign_rooms(array)
+  rooms.each do |rooms|
+    puts rooms
+  end
+end
+  
+  
+  
