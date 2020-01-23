@@ -12,10 +12,10 @@ def assign_rooms(attendees)
   room = 1
   room_assignments =[]
   array.each do |name|
-    rooms_assignments << "Hello, #{name}! You'll be assigned to room #{count}!"
+    room_assignments << "Hello, #{name}! You'll be assigned to room #{count}!"
     room += 1
   end
-  return rooms_assignments
+  return room_assignments
 end
 def printer(attendees)
   batch_badge_creator(attendees)
