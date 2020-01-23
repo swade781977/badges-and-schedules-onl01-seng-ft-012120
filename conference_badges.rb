@@ -4,9 +4,9 @@ end
 def batch_badge_creator(attendees)
   badges = []
   attendees.each do |name|
-    badge_array << badge_maker(name)
+    badges << badge_maker(name)
   end
-  return badge_array
+  return badges
 end
 def assign_rooms(array)
   room = 1
