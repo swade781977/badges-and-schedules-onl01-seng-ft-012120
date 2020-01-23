@@ -1,5 +1,5 @@
 def badge_maker(name)
-  badge = "Hello, my name is #{name}"
+  badge = "Hello, my name is #{name}."
 end
 def batch_badge_creator(array)
   badge_array = []
